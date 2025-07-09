@@ -20,16 +20,11 @@
   "author": "Padmaja Mohanty",
   "type": "module",
   "main": "app.js",
-  // "scripts": {
-  //   "start": "babel-node ./app.js",
-  //   "test": "jest",
-  //   "build": "echo Test build completed! No package was uploaded"
-  // },
   "scripts": {
-  "start": "babel-node ./app.js",
-  "test": "echo \"No tests defined\" && exit 0",
-  "build": "echo Test build completed! No package was uploaded"
-},
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "echo Test build completed! No package was uploaded"
+  },
   "dependencies": {
     "express": "^5.1.0"
   },
@@ -37,6 +32,7 @@
     "@babel/cli": "^7.28.0",
     "@babel/core": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
     "jest": "^30.0.4"
   }
 }
