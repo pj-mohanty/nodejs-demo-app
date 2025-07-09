@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "this is a nodejs demo app",
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "homepage": "https://github.com/pj-mohanty/nodejs-demo-app#readme",
+  "bugs": {
+    "url": "https://github.com/pj-mohanty/nodejs-demo-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pj-mohanty/nodejs-demo-app.git"
+  },
+  "license": "ISC",
+  "author": "Padmaja Mohanty",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "echo Test build completed! No package was uploaded"
+  }
+}
